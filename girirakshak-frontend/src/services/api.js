@@ -2,7 +2,7 @@ import axios from "axios";
 import { riskZones, alerts, rainfallForecast, summary, fallbackReports } from "../data/riskZones";
 
 const client = axios.create({
-  baseURL: import.meta.env.VITE_API_BASE_URL || "http://localhost:5000/api",
+  baseURL: import.meta.env.VITE_API_BASE_URL || "https://debugging-nature-backend.onrender.com",
   timeout: 10000,
 });
 
